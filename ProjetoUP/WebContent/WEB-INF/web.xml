@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>ProjetoStart1</display-name>
+	<welcome-file-list>
+		<welcome-file>telaInicial.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>servletCLG</servlet-name>
+		<servlet-class>controller.ControllerClienteLG</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servletCLG</servlet-name>
+		<url-pattern>/servletCLG</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>servletCC</servlet-name>
+		<servlet-class>controller.ControllerCliente</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servletCC</servlet-name>
+		<url-pattern>/servletCC</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>servletCDel</servlet-name>
+		<servlet-class>controller.ControllerClienteD</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servletCDel</servlet-name>
+		<url-pattern>/servletCDel</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>servletCAlt</servlet-name>
+		<servlet-class>controller.ControllerClienteAlt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servletCAlt</servlet-name>
+		<url-pattern>/servletCAlt</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>servletCList</servlet-name>
+		<servlet-class>controller.ControllerClienteListar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servletCList</servlet-name>
+		<url-pattern>/servletCList</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>servletPSLG</servlet-name>
+		<servlet-class>controller.ControllerPrestadorServicoLG</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servletPSLG</servlet-name>
+		<url-pattern>/servletPSLG</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>servletPS</servlet-name>
+		<servlet-class>controller.ControllerPrestadorServico</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servletPS</servlet-name>
+		<url-pattern>/servletPS</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>servletPSDel</servlet-name>
+		<servlet-class>controller.ControllerPrestadorServicoD</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servletPSDel</servlet-name>
+		<url-pattern>/servletPSDel</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>servletPSAlt</servlet-name>
+		<servlet-class>controller.ControllerPrestadorServicoAlt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servletPSAlt</servlet-name>
+		<url-pattern>/servletPSAlt</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>servletPSList</servlet-name>
+		<servlet-class>controller.ControllerPrestadorServicoListar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servletPSList</servlet-name>
+		<url-pattern>/servletPSList</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>servletContrato</servlet-name>
+		<servlet-class>controller.ControllerContrato</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servletContrato</servlet-name>
+		<url-pattern>/servletContrato</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>servletSvLista</servlet-name>
+		<servlet-class>controller.ControllerServicoListar</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>servletSvLista</servlet-name>
+		<url-pattern>/servletSvLista</url-pattern>
+	</servlet-mapping>
+</web-app>
